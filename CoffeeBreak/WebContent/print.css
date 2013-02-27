@@ -1,0 +1,5 @@
+
+/** ----- noprint ----- */
+#toparea, .noprint {
+	display: none;
+}
