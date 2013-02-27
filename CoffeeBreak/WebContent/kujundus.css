@@ -135,8 +135,7 @@ body{
 	width: 90%;
 }
 
-#result_table th
-{
+#result_table th{
 	font-size: 13px;
 	font-weight: normal;
 	padding: 8px;
@@ -146,8 +145,7 @@ body{
 	color: #039;
 }
 
-#result_table td
-{
+#result_table td{
 	padding: 8px;
 	background: #e8edff; 
 	border-bottom: 1px solid #fff;
@@ -155,8 +153,7 @@ body{
 	border-top: 1px solid transparent;
 }
 
-#result_table tr:hover td
-{
+#result_table tr:hover td{
 	background: #d0dafd;
 	color: #339;
 }
@@ -167,7 +164,7 @@ body{
 	left: 210px;
 }
 
-#new_user{
+.nice_position{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 12px;
 	position: relative;
