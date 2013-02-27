@@ -13,6 +13,10 @@ body{
 	height: 101%;
 }
 
+p{
+	color: #000;
+}
+
 #background2{
 	position: absolute;
 	background: url("../graphics/mockup1_0010_bg2.png");
@@ -58,8 +62,7 @@ body{
 	vertical-align: middle;
 	color: #039;
 }
-
-#tablearea_text{
+	#tablearea_text{
 	text-align: center;
 	color: #039;
 	position: relative;
@@ -162,6 +165,19 @@ body{
 	position: relative;
 	top: 15px;
 	left: 210px;
+}
+
+#apply{
+	color: #000;
+	position: relative;
+	top: 15px;
+	left: 50px;
+}
+
+#confirm{
+	position: relative;
+	top: 15px;
+	left: 220px;
 }
 
 .nice_position{
