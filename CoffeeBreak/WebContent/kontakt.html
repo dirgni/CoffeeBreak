@@ -1,72 +1,88 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="kujundus.css">
-<link rel="stylesheet" type="text/css" href="print.css" media="print">
-<title>E-valimised - Kontakt</title>
-</head>
-
-<body>
-
-	<div id="background2">
-
-		<div id="tablebase">
-			<div id="toparea">
-				<form action="MAILTO:matean@cb.com" method="post"
-					enctype="text/plain">
-					<input type="text" name="nimi"><br> <input type="text"
-						name="mail"><br> <input type="text" name="sisu"><br>
-					<input type="submit" value="Saada kiri"><br> <input
-						type="reset" value="Tühjenda väljad">
-				</form>
-
-
-			</div>
-			<div id="tablearea"></div>
-
-			<div id="menubuttons" class="buttons">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="kujundus.css">
+		<title>E-valimised - Kontakt</title>
+	</head>
+	
+	<body>
+	
+		<div id="background2">
+	
+			<div id="tablebase">
+				<div id="toparea">
+					<div id="toparea_text"><h2>Kontaktandmed</h2></div><!-- End toparea_text -->
+				</div><!-- End toparea -->
+				
+				<div id="tablearea">
+					<div class="nice_position">
+						MaEiTeaMidagi Info: +372 655 4663<br><br>
+						<form method="post" action="MAILTO:matean@cb.com"
+							enctype="text/plain">
+							<table id=send_mail_info>
+								<tr>
+									<td>Nimi</td>
+									<td><input type="text" name="nimi"
+										placeholder="Peeter Oja"></td>
+								</tr>
+								<tr>
+									<td>E-mail</td>
+									<td><input type="text" name="email"
+										placeholder="peeter-oja@gmail.com"></td>
+								</tr>
+								<tr>
+									<td>Sisu</td>
+									<td><input type="text" name="sisu"
+										placeholder="Soovin infot.."></td>
+								</tr>
+							</table>
+							<p>
+								<!--<input type="submit" value="Saada kiri" name="send_submit"  -->
+								<input type="button" value="Saada kiri" name="send_submit"
+									onclick="location.href='main.html';"><br> <input
+									type="reset" value="Tühjenda väljad" name="reset_field">
+							</p>
+						</form>
+					</div><!-- End nice_position -->
+	
+				</div><!-- End tablearea -->
+	
+				<div id="menubuttons" class="buttons">
+					<form>
+						<input class="button1" type="button" id="Kodu" value="Kodu"
+							onclick="location.href='main.html';">
+						<input class="button2" type="button" id="Statistika" value="Statistika"
+							onclick="location.href='statistika_riik.html';">
+						<input class="button3" type="button" id="Tulemused" value="Tulemused"
+							onclick="location.href='tulemused.html';">
+						<input class="button4" type="button" id="Kontakt" value="Kontakt"
+							onclick="location.href='kontakt.html';">
+					</form>
+				</div><!-- End menubuttons -->
+	
+			</div><!-- End tablebase -->
+	
+			<div id="Table" class="table"></div><!-- End Table -->
+	
+			<div id="Search">
+	
 				<form>
-					<input class="button1" type="button" id="Kodu" value="Kodu"
-						onclick="location.href='main.html';"> <input
-						class="button2" type="button" id="Statistika" value="Statistika"
-						onclick="location.href='statistika_riik.html';"> <input
-						class="button3" type="button" id="Tulemused" value="Tulemused"
-						onclick="location.href='tulemused.html';"> <input
-						class="button4" type="button" id="Kontakt" value="Kontakt"
-						onclick="location.href='kontakt.html';">
+					<input name="Search" placeholder="Otsi..">
+					<input type="submit" value="Mine">
 				</form>
-			</div>
-
-
-
-
-
-		</div>
-
-		<div id="Table" class="table"></div>
-
-		<div id="Search">
-
-			<form>
-				<input name="Search" placeholder="Otsi.."> <input
-					type="submit" value="Mine">
-			</form>
-		</div>
-
-		<div id="logout">
-			Kasutaja: Peeter Oja
-			<form>
-				<input class="button5" type="button" id="Logout" value="Logi välja">
-			</form>
-
-		</div>
-
-	</div>
-
-
-
-
-</body>
+			</div><!-- End Search -->
+	
+			<div id="logout">
+				Kasutaja: Peeter Oja
+				<form>
+					<input class="button5" type="button" id="Logout" value="Logi välja">
+				</form>
+	
+			</div><!-- End logout -->
+	
+		</div><!-- End background2 -->
+	
+	</body>
 </html>
