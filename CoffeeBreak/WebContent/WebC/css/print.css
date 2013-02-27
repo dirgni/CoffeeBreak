@@ -1,0 +1,19 @@
+/** ----- Header ----- */
+.header {
+	display: none;
+}
+
+/** ----- Menu ----- */
+.menu {
+	display: none;
+}
+
+/** ----- Content ----- */
+.inline {
+	display: inline;
+}
+
+/** ----- Footer ----- */
+.footer {
+	display: none;
+}
