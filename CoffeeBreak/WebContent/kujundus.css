@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+*	{
+	padding: 0;
+	margin: 0;
+	}
+
+body	{
+	margin: 0;
+    padding: 0;
+    background: url("../graphics/mockup1_0011_bg1.png");
+    font-family: tahoma;
+	color: #dadcde;
+	width: auto;
+	height: 101%;
+}
+
+#background2{
+	position: absolute;
+	background: url("../graphics/mockup1_0010_bg2.png");
+	width: 741px;
+	height: 725px;
+
+}
+
+#tablebase{
+	position: absolute;
+	background: url("../graphics/mockup1_0009_base.png");
+	width: 678px;
+	height: 590px;
+}
