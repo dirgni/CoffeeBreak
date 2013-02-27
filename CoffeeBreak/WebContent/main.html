@@ -14,28 +14,82 @@
 	
 			<div id="tablebase">
 				<div id="toparea">
-					<div id="Login">
-	
-						<form>
-							<input name="User" placeholder="Kasutajatunnus"><br>
-							<input name="Passwd" placeholder="Parool"><br>
-							<input type="submit" value="Sisene">
-						</form>
-	
-					</div><!-- End Login -->
-					<div id="Login_menu">
+					
+					<div id="apply">
+					
+						Peeter Oja
 	
 						<form action="">
-							<select name="Valige sisenemisviis">
-								<option value="user">Kasutajatunnus</option>
-								<option value="id-card">ID-kaart</option>
-								<option value="bank">Panga kaudu</option>
+							<select name="Valige piirkond">
+								<option>Keila</option>
+								<option>Kohtla-Järve</option>
+								<option>Pärnu</option>
+								<option>Rapla</option>
+								<option>Tartu</option>
+								<option>Võru</option>
 							</select>
 						</form>
 	
-					</div><!-- End Login_menu -->
+						<form>
+							<input class="button5" type="button" id="Add" value="Lisage kandidatuur"
+								onclick="location.href='main.html';">
+						</form>
+					</div>
+					
 				</div><!-- End toparea -->
-				<div id="tablearea"></div>
+				<div id="tablearea">
+					
+					<table id="result_table">
+						<tr>
+							<th>Nimi</th>
+							<th>Piirkond</th>
+							<th>Partei</th>
+							<th>Valik</th>
+						</tr>
+						<tr>
+							<td>Mari Maasikas</td>
+							<td>Kohtla-Järve</td>
+							<td>Võpsikud</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+						<tr>
+							<td>Tauri Tamm</td>
+							<td>Keila</td>
+							<td>Puukesed</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+						<tr>
+							<td>Janno Jõgi</td>
+							<td>Tartu</td>
+							<td>Kuusekesed</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+						<tr>
+							<td>Meeri Mets</td>
+							<td>Rapla</td>
+							<td>VOT</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+						<tr>
+							<td>Kalle Kask</td>
+							<td>Võru</td>
+							<td>Puukesed</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+						<tr>
+							<td>Toomas Toomingas</td>
+							<td>Pärnu</td>
+							<td>Randomness</td>
+							<td><input type="radio" name="valik"></td>
+						</tr>
+					</table>
+					
+					<form>
+						<input class="button5" type="button" id="confirm" value="Kinnita"
+							onclick="location.href='main.html';">
+					</form>				
+				
+				</div>
 	
 				<div id="menubuttons" class="buttons">
 	
