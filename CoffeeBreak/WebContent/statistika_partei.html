@@ -1,36 +1,39 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="kujundus.css">
 <title>E-valimised</title>
 </head>
 
-
 <body>
 
-
 <div id="background2">
-
 
 <div id="tablebase">
 	<div id="toparea">
 		<img id="est_picture" src="../graphics/Eesti_kaart.png" alt="Siin peaks olema valimisstatistika graafid kaartil"> 
 	</div>
-
-
+	
 	<div id="tablearea">
+		<form action="">
+			<select name="Valige partei">
+				<option>Kuusekesed</option>
+				<option>Puukesed</option>	
+				<option>Randomness</option>
+				<option>VOT</option>
+				<option>Võpsikud</option>	
+			</select>
+		</form>
+		
 		<div id="diagramm">
 			<form>
 				<input class="button5" type="button" id="diagramm" value="Kuva diagramm">
 			</form>
-
-
+		
 		</div>
-
-
+		
 		<div id="menubuttons_stat" class="buttons">
 			<form>
 				<input class="button1" type="button" id="Riik" value="Riik" onclick="location.href='statistika_riik.html';">
@@ -39,89 +42,77 @@
 				<input class="button4" type="button" id="Kandidaadid" value="Kandidaadid" onclick="location.href='statistika_kandidaadid.html';">
 			</form>
 		</div>
-
-
+		
 		<table id="result_table">
 			<tr>
+				<th>Nimi</th>
 				<th>Piirkond</th>
-				<th>Partei</th>
 				<th>Häälte arv</th>
 			</tr>
 			<tr>
+				<td>Mari Maasikas</td>
 				<td>Kohtla-Järve</td>
-				<td>Võpsikud</td>
 				<td>126</td>
 			</tr>
 			<tr>
+				<td>Tauri Tamm</td>
 				<td>Keila</td>
-				<td>Puukesed</td>
 				<td>456</td>
 			</tr>
 			<tr>
+				<td>Janno Jõgi</td>
 				<td>Tartu</td>
-				<td>Kuusekesed</td>
 				<td>254</td>
 			</tr>
 			<tr>
+				<td>Meeri Mets</td>
 				<td>Rapla</td>
-				<td>VOT</td>
 				<td>1265</td>
 			</tr>
 			<tr>
+				<td>Kalle Kask</td>
 				<td>Võru</td>
-				<td>Puukesed</td>
 				<td>852</td>
 			</tr>
 			<tr>
+				<td>Toomas Toomingas</td>
 				<td>Pärnu</td>
-				<td>Randomness</td>
 				<td>111</td>
 			</tr>
 		</table>
-
-
 	</div>
-
-
+		
 <div id="menubuttons" class="buttons">
 	<form>
 		<input class="button1" type="button" id="Kodu" value="Kodu" onclick="location.href='main.html';">
-		<input class="button2" type="button" id="Statistika" value="Statistika" onclick="statistika.href='statistika_riik.html';">
+		<input class="button2" type="button" id="Statistika" value="Statistika" onclick="location.href='statistika_riik.html';">
 		<input class="button3" type="button" id="Tulemused" value="Tulemused" onclick="location.href='tulemused.html';">
 		<input class="button4" type="button" id="Kontakt" value="Kontakt" onclick="location.href='kontakt.html';">
 	</form>
 </div>
-
-
-
-
-
-
+	
 
 </div>
+
 
 
 
 
 <div id="Search">
-
-
-<form>
-<input name="Search" placeholder="Otsi..">
-<input type="submit" value="Mine">
-</form>
+	<form>
+		<input name="Search" placeholder="Otsi..">
+		<input type="submit" value="Mine">
+	</form>
 </div>
+
 <div id="logout">
-<form>
-<input class="button5" type="button" id="Logout" value="Logi välja">
-</form>
-
-
+	<form>
+		<input class="button5" type="button" id="Logout" value="Logi välja">
+	</form>
 </div>
 
 
 </div>
-
 
 </body>
 </html>

@@ -5,7 +5,7 @@
 	margin: 0;
 	}
 
-body	{
+body{
     background: url("../graphics/mockup1_0011_bg1.png");
     font-family: tahoma;
 	color: #dadcde;
@@ -20,7 +20,6 @@ body	{
 	height: 725px;
 	top:10px;
 	left:50px;
-
 }
 
 #tablebase{
@@ -46,7 +45,7 @@ body	{
 	color: #039;
 	position: relative;
     top: 40%;
-	}
+}
 
 #tablearea{
 	position: relative;
@@ -70,23 +69,34 @@ body	{
     left: 30px;
 }
 
+#diagramm{
+	position: relative;
+	left: 240px;	
+}
+
 #Login{
 	position: relative;
 	top: 30px;
 	left: 25px;
 }
+
 #Login_menu{
 	position: relative;
 	bottom: 30px;
 	left: 180px;
-	
 }
+
 #Search{
 	position: relative;
 	bottom: 580px;
 	left: 40px;
-	
 }
+
+#Search2{
+	position: relative;
+	left: 15px;
+}
+
 #logout{
 	position: relative;
 	bottom: 600px;
@@ -115,6 +125,7 @@ body	{
 	border-bottom: 1px solid #fff;
 	color: #039;
 }
+
 #result_table td
 {
 	padding: 8px;
@@ -123,19 +134,16 @@ body	{
 	color: #669;
 	border-top: 1px solid transparent;
 }
+
 #result_table tr:hover td
 {
 	background: #d0dafd;
 	color: #339;
 }
 
-#diagramm{
-    position: relative;
-    left: 240px;    
-}
- 
-#picture{
-    position: relative;
-    top: 15px;
-    left: 7px;
+#est_picture{
+	position: relative;
+	top: 15px;
+	left: 210px;
+
 }
