@@ -40,6 +40,14 @@ body	{
 	top: 20px;
 	left: 25px;	
 }
+
+#toparea_text{
+	text-align: center;
+	color: #039;
+	position: relative;
+    top: 40%;
+	}
+
 #tablearea{
 	position: relative;
 	background: url("../graphics/mockup1_0003_tablearea.png");
@@ -47,6 +55,8 @@ body	{
 	height: 373px;
 	top: 30px;
 	left: 25px;
+	display:table-cell;	
+	vertical-align: middle;
 }
 
 #menubuttons{
@@ -77,5 +87,39 @@ body	{
 	bottom: 600px;
 	left: 600px;
 	
+}
+
+#result_table{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	position: relative;
+	margin: auto;
+	text-align: left;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+#result_table th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#result_table td
+{
+	padding: 8px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#result_table tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
 }
 
