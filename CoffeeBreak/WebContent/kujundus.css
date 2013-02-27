@@ -65,6 +65,11 @@ body	{
 	left: 25px;	
 }
 
+#menubuttons_stat{
+	position: relative;
+	left: 30px;
+}
+
 #Login{
 	position: relative;
 	top: 30px;
@@ -123,3 +128,13 @@ body	{
 	color: #339;
 }
 
+#diagramm{
+	position: relative;
+	left: 240px;	
+}
+
+#picture{
+	position: relative;
+	top: 15px;
+	left: 7px;
+}
