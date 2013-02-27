@@ -17,6 +17,17 @@
 	</div>
 	
 	<div id="tablearea">
+		<form action="">
+			<select name="Valige piirkond">
+				<option>Keila</option>
+				<option>Kohtla-J‰rve</option>
+				<option>P‰rnu</option>
+				<option>Rapla</option>	
+				<option>Tartu</option>
+				<option>Vıru</option>	
+			</select>
+		</form>
+		
 		<div id="diagramm">
 			<form>
 				<input class="button5" type="button" id="diagramm" value="Kuva diagramm">
@@ -27,7 +38,7 @@
 		<div id="menubuttons_stat" class="buttons">
 			<form>
 				<input class="button1" type="button" id="Riik" value="Riik" onclick="location.href='statistika_riik.html';">
-				<input class="button2" type="button" id="Piirkond" value="Piirkond" onclick="location.href='statistika_piirkond.html';">
+				<input class="button2" type="button" id="Piirkond" value="Piirkond" onclick="statistika.href='statistika_piirkond.html';">
 				<input class="button3" type="button" id="Partei" value="Partei" onclick="location.href='statistika_partei.html';">
 				<input class="button4" type="button" id="Kandidaadid" value="Kandidaadid" onclick="location.href='statistika_kandidaadid';">
 			</form>
@@ -35,42 +46,41 @@
 		
 		<table id="result_table">
 			<tr>
-				<th>Piirkond</th>
+				<th>Nimi</th>
 				<th>Partei</th>
 				<th>H‰‰lte arv</th>
 			</tr>
 			<tr>
-				<td>Kohtla-J‰rve</td>
+				<td>Mari Maasikas</td>
 				<td>Vıpsikud</td>
 				<td>126</td>
 			</tr>
 			<tr>
-				<td>Keila</td>
+				<td>Tauri Tamm</td>
 				<td>Puukesed</td>
 				<td>456</td>
 			</tr>
 			<tr>
-				<td>Tartu</td>
+				<td>Janno Jıgi</td>
 				<td>Kuusekesed</td>
 				<td>254</td>
 			</tr>
 			<tr>
-				<td>Rapla</td>
+				<td>Meeri Mets</td>
 				<td>VOT</td>
 				<td>1265</td>
 			</tr>
 			<tr>
-				<td>Vıru</td>
+				<td>Kalle Kask</td>
 				<td>Puukesed</td>
 				<td>852</td>
 			</tr>
 			<tr>
-				<td>P‰rnu</td>
+				<td>Toomas Toomingas</td>
 				<td>Randomness</td>
 				<td>111</td>
 			</tr>
 		</table>
-
 	</div>
 		
 <div id="menubuttons" class="buttons">
