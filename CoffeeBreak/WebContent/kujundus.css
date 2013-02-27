@@ -20,12 +20,40 @@ body	{
 	background: url("../graphics/mockup1_0010_bg2.png");
 	width: 741px;
 	height: 725px;
+	top:10px;
+	left:50px;
 
 }
 
 #tablebase{
-	position: absolute;
+	position: relative;
 	background: url("../graphics/mockup1_0009_base.png");
 	width: 678px;
 	height: 590px;
+	top: 70px;
+	left: 25px;
 }
+
+#toparea{
+	position: relative;
+	background: url("../graphics/mockup1_0004_toparea.png");
+	width: 617px;
+	height: 157px;
+	top: 20px;
+	left: 25px;	
+}
+#tablearea{
+	position: relative;
+	background: url("../graphics/mockup1_0003_tablearea.png");
+	width: 613px;
+	height: 373px;
+	top: 30px;
+	left: 25px;
+}
+
+#menubuttons{
+	position: relative;
+	bottom: 555px;
+	left: 25px;	
+}
+
