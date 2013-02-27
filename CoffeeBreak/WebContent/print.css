@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+#toparea, #diagramm, #menubuttons, #menubuttons_stat, #Search, #Search2, #logout, .noprint{
+ 	display: none;
+}
+
+#result_table{
+ 	width: 100%; 
+ 	margin: 0; 
+ 	float: none;
+ }
+ 
+#result_table td{
+	color: #000;
+ }
+ 
+ #result_table th{
+ 	color: #000;
+ }
