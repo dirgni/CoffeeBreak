@@ -4,62 +4,66 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="kujundus.css">
-<title>E-valimised</title>
+<link rel="stylesheet" type="text/css" href="print.css" media="print">
+<title>E-valimised - Kontakt</title>
 </head>
 
 <body>
 
-<div id="background2">
+	<div id="background2">
 
-<div id="tablebase">
-	<div id="toparea">
-		<form action="MAILTO:matean@cb.com" method="post" enctype="text/plain">
-		<input type="text" name="nimi"><br>
-		<input type="text" name="mail" ><br>
-		<input type="text" name="sisu"><br>
-		<input type="submit" value="Saada kiri"><br>
-		<input type="reset" value="Tühjenda väljad">
-		</form>
-	
-	
+		<div id="tablebase">
+			<div id="toparea">
+				<form action="MAILTO:matean@cb.com" method="post"
+					enctype="text/plain">
+					<input type="text" name="nimi"><br> <input type="text"
+						name="mail"><br> <input type="text" name="sisu"><br>
+					<input type="submit" value="Saada kiri"><br> <input
+						type="reset" value="Tühjenda väljad">
+				</form>
+
+
+			</div>
+			<div id="tablearea"></div>
+
+			<div id="menubuttons" class="buttons">
+				<form>
+					<input class="button1" type="button" id="Kodu" value="Kodu"
+						onclick="location.href='main.html';"> <input
+						class="button2" type="button" id="Statistika" value="Statistika"
+						onclick="location.href='statistika_riik.html';"> <input
+						class="button3" type="button" id="Tulemused" value="Tulemused"
+						onclick="location.href='tulemused.html';"> <input
+						class="button4" type="button" id="Kontakt" value="Kontakt"
+						onclick="location.href='kontakt.html';">
+				</form>
+			</div>
+
+
+
+
+
+		</div>
+
+		<div id="Table" class="table"></div>
+
+		<div id="Search">
+
+			<form>
+				<input name="Search" placeholder="Otsi.."> <input
+					type="submit" value="Mine">
+			</form>
+		</div>
+
+		<div id="logout">
+			<form>
+				Kasutaja: Peeter Oja <input class="button5" type="button"
+					id="Logout" value="Logi välja">
+			</form>
+
+		</div>
+
 	</div>
-	<div id="tablearea"></div>
-		
-<div id="menubuttons" class="buttons">
-	<form>
-		<input class="button1" type="button" id="Kodu" value="Kodu" onclick="location.href='main.html';">
-		<input class="button2" type="button" id="Statistika" value="Statistika" onclick="location.href='statistika_riik.html';">
-		<input class="button3" type="button" id="Tulemused" value="Tulemused" onclick="location.href='tulemused.html';">
-		<input class="button4" type="button" id="Kontakt" value="Kontakt" onclick="location.href='kontakt.html';">
-	</form>
-</div>
-	
-
-
-
-	
-</div>
-	
-<div id="Table" class="table">
-	
-</div>
-
-<div id="Search">
-
-<form>
-<input name="Search" placeholder="Otsi..">
-<input type="submit" value="Mine">
-</form>
-</div>
-
-<div id="logout">
-<form>
-<input class="button5" type="button" id="Logout" value="Logi välja">
-</form>
-
-</div>
-
-</div>
 
 
 
