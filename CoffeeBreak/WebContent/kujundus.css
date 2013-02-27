@@ -47,6 +47,7 @@ body{
     top: 40%;
 }
 
+
 #tablearea{
 	position: relative;
 	background: url("../graphics/mockup1_0003_tablearea.png");
@@ -56,6 +57,8 @@ body{
 	left: 25px;
 	display:table-cell;	
 	vertical-align: middle;
+	text-align: center;
+	color: #039;
 }
 
 #menubuttons{
@@ -98,6 +101,14 @@ body{
 }
 
 #logout{
+	position: relative;
+	bottom: 600px;
+	left: 600px;
+	font-size: 12px;
+	color: #039;	
+}
+
+#register{
 	position: relative;
 	bottom: 600px;
 	left: 600px;

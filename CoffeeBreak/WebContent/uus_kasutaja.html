@@ -41,8 +41,11 @@
 							</tr>
 						</table>
 						<p>
-							<input type="submit" value="Kinnita" name="reg_submit"><br>
-							<input type="button" value="Tühista" name="reg_cancel">
+							<!--<input type="submit" value="Kinnita" name="reg_submit"  -->
+							<input type="button" value="Kinnita" name="reg_submit"
+								onclick="location.href='main.html';"><br>
+							<input type="button" value="Tühista" name="reg_cancel"
+								onclick="location.href='main_guest.html';">
 						</p>
 					</form>
 					</div><!-- End new_user -->
@@ -75,12 +78,13 @@
 				</form>
 			</div><!-- End Search -->
 	
-			<div id="logout">
+			<div id="register" class="noprint">
 				<form>
-					<input class="button5" type="button" id="Logout" value="Logi välja">
+					<input class="button5" type="button" id="register_u" value="Registreeri"
+						onclick="location.href='main_guest.html';">
 				</form>
-	
-			</div><!-- End Logout -->
+				
+			</div><!-- End register -->
 	
 		</div><!-- End background2 -->
 	
