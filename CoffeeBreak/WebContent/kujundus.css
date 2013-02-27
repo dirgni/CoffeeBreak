@@ -51,7 +51,6 @@ p{
     top: 40%;
 }
 
-
 #tablearea{
 	position: relative;
 	background: url("../graphics/mockup1_0003_tablearea.png");
@@ -61,8 +60,12 @@ p{
 	left: 25px;
 	display:table-cell;	
 	vertical-align: middle;
+	color: #039;
+}
+	#tablearea_text{
 	text-align: center;
 	color: #039;
+	position: relative;
 }
 
 #menubuttons{
@@ -104,10 +107,17 @@ p{
 	left: 15px;
 }
 
+.sort{
+	position: relative;
+	left: 15px;
+}
+
 #logout{
 	position: relative;
 	bottom: 600px;
 	left: 600px;
+	font-size: 12px;	
+	color: #039;
 }
 
 #register{
@@ -171,4 +181,14 @@ p{
 	position: relative;
 	top: 15px;
 	left: 220px;
+}
+
+#new_user{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	position: relative;
+	margin: auto;
+	text-align: left;
+	border-collapse: collapse;
+	width: 90%;
 }
