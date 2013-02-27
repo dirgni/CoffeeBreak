@@ -12,12 +12,25 @@
 <div id="background2">
 
 <div id="tablebase">
-	<div id="toparea"></div>
+	<div id="toparea">
+		<form action="MAILTO:matean@cb.com" method="post" enctype="text/plain">
+		Nimi:<br>
+		<input type="text" name="nimi"><br>
+		E-mail:<br>
+		<input type="text" name="mail" ><br>
+		Sõnum:<br>
+		<input type="text" name="sisu"><br><br>
+		<input type="submit" value="Saada kiri">
+		<input type="reset" value="Tühjenda väljad">
+		</form>
+	
+	
+	</div>
 	<div id="tablearea"></div>
 		
 <div id="menubuttons" class="buttons">
 	<form>
-		<input class="button1" type="button" id="Kodu" value="Kodu">
+		<input class="button1" type="button" id="Kodu" value="Kodu" onclick="location.href='main.html';">
 		<input class="button2" type="button" id="Statistika" value="Statistika">
 		<input class="button3" type="button" id="Tulemused" value="Tulemused">
 		<input class="button4" type="button" id="Kontakt" value="Kontakt" onclick="location.href='kontakt.html';">
