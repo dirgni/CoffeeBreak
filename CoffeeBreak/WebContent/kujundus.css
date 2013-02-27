@@ -57,3 +57,27 @@ body	{
 	left: 25px;	
 }
 
+#Login{
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+#Login_menu{
+	position: relative;
+	bottom: 30px;
+	left: 180px;
+	
+}
+#Search{
+	position: relative;
+	bottom: 580px;
+	left: 40px;
+	
+}
+#logout{
+	position: relative;
+	bottom: 600px;
+	left: 600px;
+	
+}
+
